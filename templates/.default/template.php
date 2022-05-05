@@ -21,7 +21,7 @@ $this->setFrameMode(false);
             <div class="send_form_field">
                 <strong><? echo $field['NAME'] ?>:</strong>
                 <? if ($field['PROPERTY_TYPE'] == "F") { ?>
-                    <? $APPLICATION->IncludeComponent("bitrix:main.file.input", "dragn_n_drop", Array(
+                    <? $APPLICATION->IncludeComponent("bitrix:main.file.input", "drag_n_drop", Array(
                         "INPUT_NAME" => $field["CODE"],
                         "MULTIPLE" => "Y",
                         "MODULE_ID" => "main",
